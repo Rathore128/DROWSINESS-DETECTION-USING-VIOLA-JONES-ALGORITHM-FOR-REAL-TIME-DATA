@@ -1,3 +1,5 @@
+Project Details: 
+
 This project detects the drowsiness of drivers by capturing video frames of eye closure patterns. 
 This system consists of a small security camera pointing directly into the drivers face. 
 It monitors the eyes of the driver and their closure patterns. The face area and position of eyes are pinpointed by the viola-jones object detection algorithm. 
@@ -5,3 +7,17 @@ It uses a 6- coordinate of eye to seek out whether eyes are close or open, using
 When 20 consecutive frames are detected with eyelids aspect ratio less than 0.25, then the system comes to a result that the driver is drowsy and issues an alert.
 
 NOTE: Here is the Link for "Shape_predictor_68_face_landmarks.dat" File. You can download the shape predictor file using this link.
+
+Prerequisites: 
+1. Laptop having RAM atleast 4 GB with camera.
+2. Install the Dlib library and set the environment for the same.
+
+Procedure to run the Code:
+
+1. Download Anaconda Software and open jupyter Notebook.
+2. Open drowsiness detection.ipynb file.
+Note: Keep .ipynb file and shape predictor file at same location.
+
+3.Run whole code and test.
+
+I hope this file helps you to undertand this project.
