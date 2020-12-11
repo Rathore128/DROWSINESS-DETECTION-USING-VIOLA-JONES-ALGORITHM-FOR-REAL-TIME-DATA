@@ -1,0 +1,5 @@
+This project detects the drowsiness of drivers by capturing video frames of eye closure patterns. 
+This system consists of a small security camera pointing directly into the drivers face. 
+It monitors the eyes of the driver and their closure patterns. The face area and position of eyes are pinpointed by the viola-jones object detection algorithm. 
+It uses a 6- coordinate of eye to seek out whether eyes are close or open, using a haar cascade classifier. 
+When 20 consecutive frames are detected with eyelids aspect ratio less than 0.25, then the system comes to a result that the driver is drowsy and issues an alert.
